@@ -210,7 +210,7 @@ fi
 
 
 # Check if last set was compeleted
-if [ $OUTPUT_FFT ]; then
+if [ -e "$OUTPUT_FFT" ]; then
     echo "PROCESSING COMPLETE: SUCCESS"
 else
     echo "PROCESSING INCOMPLETE FOR THIS DATA SET"
