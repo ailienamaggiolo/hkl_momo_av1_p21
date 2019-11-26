@@ -19,7 +19,7 @@
   #>rsync -avh --include='*/' --include='*.sca' --exclude='*' 297 297_sca
 
 # Assign input directory, which must be a cassette number
-IMPORT="/data/mag/AM_Drive_8/data/190110_sca/210"
+IMPORT="/data/mag/AM_Drive_8/data/191125/297"
 
 # Assign a cassette number from directory
 CASSETTE=$(basename "${IMPORT}")
@@ -33,7 +33,7 @@ PROC=$WDIR/proc
 ###################################################################################
 
 # make proc folder
-if [ ! -f $PROC ]; then
+if [ ! -e $PROC ]; then
   mkdir $PROC
 else
    echo "output files to proc directory"

@@ -26,7 +26,7 @@ date
 #STOP
 
 # Directory for each homemade script for CCP4 run_programs
-RUN_PROGRAMS='/data/mag/AM_Drive_8/ccp4_scripts/HKL2000_momo/run_programs'
+RUN_PROGRAMS='/data/mag/AM_Drive_8/ccp4_scripts/github_ccp4_proc/hkl_momo/av1_p21/hkl_momo_av1_p21/run_programs'
 
 #-------# SCALEPACK2MTZ_ANO
 

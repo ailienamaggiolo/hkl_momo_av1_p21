@@ -24,8 +24,5 @@
 # Note: the input file is different than the "all_sca_proc.txt" which is used to create the directories for processed files
 
 while read in;
-  do /data/mag/AM_Drive_8/ccp4_scripts/HKL2000_momo/pipeline_ano.sh "$in";
-done < ../proc/all_sca.txt
-
-
-#test
+  do /data/mag/AM_Drive_8/ccp4_scripts/github_ccp4_proc/hkl_momo/av1_p21/hkl_momo_av1_p21/pipeline_ano.sh "$in";
+done < ../proc/all_sca_P21.txt
