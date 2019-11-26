@@ -26,3 +26,6 @@
 while read in;
   do /data/mag/AM_Drive_8/ccp4_scripts/HKL2000_momo/pipeline_ano.sh "$in";
 done < ../proc/all_sca.txt
+
+
+#test
