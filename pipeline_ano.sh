@@ -133,7 +133,7 @@ OUTPUT_FFT=`echo "$WDIR"/"$NAME_FFT"` #OUTPUT_FFT
 #-------# make file to output all log files in each data set
 LOGDIR=$WDIR/log
 
-if [ ! -f $LOGDIR ]; then
+if [ ! -e $LOGDIR ]; then
   mkdir $LOGDIR
 else
    echo "writing progress to log directory. Continuing next step..."

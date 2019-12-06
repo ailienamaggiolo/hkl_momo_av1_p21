@@ -17,5 +17,10 @@ INPUT_SCA_FILES="../proc/all_sca_proc_P21.txt"
 
 while read in;
   do DIRS=`echo "$(dirname $in)"`
-  mkdir $DIRS
+     DATASET=`echo "$DIRS" | rev | cut -d"/" -f 1 | rev`
+    if [ ! -e $DIRS ]; then
+      mkdir $DIRS
+    else
+       echo "output directory exists for $DATASET"
+    fi
 done < $INPUT_SCA_FILES
