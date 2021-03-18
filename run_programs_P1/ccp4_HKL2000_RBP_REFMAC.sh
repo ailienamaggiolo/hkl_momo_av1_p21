@@ -23,7 +23,8 @@ INPUT_MTZ=$1
 
 
 # Import MR model for phasing with rigid body refinement
-IMPORT_RBP="/data/mag/AM_Drive_8/data/MR_models/av1/181028_Av1/181028J10_Av1_truncate_refmac_12_MR.pdb" # XYZIN
+#IMPORT_RBP="/data/mag/AM_Drive_8/data/MR_models/av1/181028_Av1/181028J10_Av1_truncate_refmac_12_MR.pdb" # XYZIN
+IMPORT_RBP="/data/mag/AM_Drive_8/data/MR_models/av1/Av1_E1_12658_P1_refmac4_MR_P1.pdb" # XYZIN
 
 #comment out block for script testing-- leave commented to run REFMAC
 #: <<'STOP'
